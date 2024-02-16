@@ -7,7 +7,7 @@ function App() {
 
     // Fetch Bots
     useEffect(() => {
-        fetch("http://localhost:3000/bots")
+        fetch("https://bot-battlr-api.vercel.app/bots")
         .then((resp) => resp.json())
         .then(data => setBots(data))
     }, [])
