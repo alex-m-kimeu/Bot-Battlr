@@ -23,10 +23,8 @@ function App() {
   return (
     <>
     <Navbar />
-    <main>
-      <YourBotArmy recruitedBots={recruitedBots} dismissBot={dismissBot}/>
-      <BotCollection recruitBot={recruitBot}/>
-    </main>
+    <YourBotArmy recruitedBots={recruitedBots} dismissBot={dismissBot}/>
+    <BotCollection recruitBot={recruitBot}/>
     </>
   )
 }
