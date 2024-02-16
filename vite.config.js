@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/Bank-of-Flatiron/'
+    config.base = '/Bot-Battlr/'
   }
 
   return config
