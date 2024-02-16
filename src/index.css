@@ -37,6 +37,32 @@ header h2{
     color: #2d2e2e;
 }
 
+/* Bot Army */
+.army_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.army_container h1 {
+    font-size: 2.5rem;
+    color: #2d2e2e;
+    font-family: 'Protest Revolution', sans-serif;
+}
+.army_container img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.army_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 80px;
+
+}
+
 /* Bot Collection */
 .bot_container h1, .bot_container p{
     text-align: center;
@@ -71,6 +97,7 @@ header h2{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    cursor: pointer;
 }
 
 .bot_card img {

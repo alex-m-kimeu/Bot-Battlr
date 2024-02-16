@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BotCollection } from "./pages/bots/BotCollection"
 import { Navbar } from "./pages/navbar/Navbar"
+import { BotArmy } from "./pages/bots/BotArmy";
 
 function App() {
   const [bots, setBots] = useState([])
@@ -16,6 +17,7 @@ function App() {
     <>
     <Navbar />
     <main>
+      <BotArmy />
       <BotCollection bots={bots}/>
     </main>
     </>
