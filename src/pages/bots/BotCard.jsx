@@ -2,9 +2,9 @@ import { FaHeartbeat } from "react-icons/fa";
 import { GiBrokenShield } from "react-icons/gi";
 import { GiLightningTrio } from "react-icons/gi";
 
-export const BotCard = ({ bot }) => {
+export const BotCard = ({ bot, onClick}) => {
     return (
-        <div className="bot_card" key={bot.id}>
+        <div className="bot_card" key={bot.id} onClick={() => onClick(bot)}>
             <img src={bot.avatar_url} alt={bot.name} />
             <h2>Name : <span>{bot.name}</span></h2>
             <h3>Bot Class: <span>{bot.bot_class}</span></h3>

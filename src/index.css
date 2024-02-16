@@ -57,10 +57,17 @@ header h2{
 .army_content{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
     padding: 10px 80px;
 
+}
+.bot_army{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* Bot Collection */
