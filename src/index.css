@@ -131,3 +131,10 @@ header h2{
     color: #777;
     margin: 5px 0;
 }
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 3px 9px;
+    border: none;
+    border-radius: 10px;
+}
